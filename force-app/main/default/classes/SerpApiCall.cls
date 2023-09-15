@@ -1,6 +1,5 @@
 public class SerpApiCall {
     
-    
     @AuraEnabled(cacheable=false)
     public static String sertCall(string query){
         
