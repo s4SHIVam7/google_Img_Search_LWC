@@ -11,10 +11,7 @@ onChangeHandler(event){
     this.searchQuery = event.target.value.replace(/\s/g, '+');
 }
 
-
     searchHandler(){
-
-     
 
         serpApi({
             query: this.searchQuery

@@ -5,8 +5,7 @@ public class SerpApiCall {
         
         //We created/instantiated a HTTP Object
         Http http = new Http();
-        
-        
+            
         HttpRequest req = new HttpRequest();
         req.setEndpoint('https://serpapi.com/search.json?engine=google&tbm=isch&q='+query+'&api_key=5d82d464eea8a7b87a6f17ead6dfd401f74187d11a67765e9e44c5d266e4bddd');
         req.setMethod('GET');
