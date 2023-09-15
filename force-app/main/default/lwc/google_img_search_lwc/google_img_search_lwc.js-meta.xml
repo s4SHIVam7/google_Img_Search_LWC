@@ -4,6 +4,7 @@
     <isExposed>true</isExposed>
 	<masterLabel>google_Image_search_lwc</masterLabel>
 	<description>Google Image Search API on lwc</description>
+
 	<targets>
 		<target>lightning__RecordPage</target>
 		<target>lightning__AppPage</target>
