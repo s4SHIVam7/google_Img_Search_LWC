@@ -1,11 +1,12 @@
-# Lightning Web Component: QR Code Generator
+# Lightning Web Component: Image Search and Display
 
-This Lightning Web Component (LWC) allows you to display a QR code in your Salesforce Lightning application. It provides a simple interface to input text, generate a QR code, and display it on the page.
+This Lightning Web Component (LWC) allows you to search and display images froom your Salesforce org and Google. It provides a user-friendly interface to search for images and view them directly on your Lightning page.
 
 ## Features
 
-- Generate QR codes from text input.
-- Display the QR code Image on your Lightning page.
+- Search for images from Salesforce.
+- Display the searched images on your Lightning page from google.
+- Display the image to view it in full size.
 
 ## Installation
 
@@ -14,4 +15,4 @@ To use this component in your Salesforce org, you can deploy it using Salesforce
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/s4SHIVam7/QRcode_Generator_LWC.git
+git clone https://github.com/your-username/google_Img_Search_LWC.git
