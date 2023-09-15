@@ -6,9 +6,11 @@
 	<description>Google Image Search API on lwc</description>
 	
     <targets>
+
+	<targets>
 		<target>lightning__RecordPage</target>
 		<target>lightning__AppPage</target>
 		<target>lightning__HomePage</target>
 	</targets>
-    
+
 </LightningComponentBundle>
