@@ -1,5 +1,5 @@
 <template>
-    
+
     <lightning-card icon-name="utility:search" title="Google API integration with Salesforce">
 
         <div class='slds-var-p-around_large slds-clearfix'>
@@ -14,9 +14,14 @@
             </div>
 
 
- </div>
+        </div>
 
-<template if:true={isVisible}> <div class="slds-m-around_large"><img src={imageLink} alt="photo"></div>   </template>
+        <template if:true={isVisible}> 
+            <div class="slds-m-around_large">
+                <img src={imageLink} alt="photo">
+            </div>   
+        </template>
+        
     </lightning-card>
 
     

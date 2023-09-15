@@ -5,7 +5,6 @@ imageLink;
 
 isVisible = false;
 
-
 searchQuery;
 
 onChangeHandler(event){
